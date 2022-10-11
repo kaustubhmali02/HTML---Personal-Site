@@ -37,15 +37,6 @@ hr {
   margin: 5rem auto 5rem auto;
 }
 
-.top-container {
-  background-color: #E4F9F5;
-}
-
-.middle-container {
-  background-color: #E4F9F5;
-  margin: 100px 0;
-}
-
 p {
   line-height: 2;
 }
@@ -61,9 +52,25 @@ a:hover {
   color: #fff;
 }
 
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #E4F9F5;
+  margin: 100px 0;
+}
+
 .intro {
   width: 30%;
   margin: auto;
+}
+
+.certifications-images {
+  display: inline-block;
+  margin-top: 2.5rem;
 }
 
 .bottom-container {
@@ -126,4 +133,8 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc48b);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc48b);
   text-decoration: none;
+}
+
+.contact-me {
+  left: 20px;
 }
