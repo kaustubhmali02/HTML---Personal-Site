@@ -108,6 +108,22 @@ a:hover {
   background-color: #11999e;
 }
 
+.work-experience{
+  display: inline-block;
+  width: 70%;
+}
+
+.work-experience-table {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.table-experience-skills{
+  padding: 0 0 0 1rem;
+}
+
 .contact-button {
   display: inline-block;
   background: #11cdd4;
