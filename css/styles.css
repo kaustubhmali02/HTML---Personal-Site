@@ -94,6 +94,11 @@ a:hover {
 .skill-icons {
   display: inline-block;
   margin: 2rem auto 2rem auto;
+  padding: 0;
+}
+
+img.skills:hover {
+  margin: 0 1rem 0 1rem;
 }
 
 .certificate-buttons {
