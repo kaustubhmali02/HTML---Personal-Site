@@ -407,6 +407,10 @@ hr.major {
 	margin: 3em 0;
 }
 
+td {
+	text-align: -webkit-left;
+}
+
 .skill-icons {
 	margin: 3rem;
 }
@@ -2121,6 +2125,20 @@ button.primary.icon:before,
 	line-height: 0;
 }
 
+.certs-section{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.certificate-buttons-indiv {
+	display: inline-block;
+	margin: 0 1rem 1rem 1rem;	
+}
+
+.cert-title{
+	max-width: fit-content;
+	margin: auto;
+}
 /* Form */
 
 form {
